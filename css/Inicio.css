@@ -1,0 +1,580 @@
+
+
+
+/*Logo*/
+.navbar img {
+  width: 180px;
+  z-index: 50;
+}
+
+/*Menu Principal*/
+.navbar {
+  background:paleturquoise;
+}
+.navbar-nav {
+  margin-left: 100px;
+  margin: 0px 0px 0px 10px;
+  margin-top: 1px;
+}
+
+.nav-item {
+  color: red;
+}
+.dropdown-menu {
+  background: whitesmoke;
+}
+
+.navbar .form-control .Search:hover {
+  border-color: red;
+}
+
+.navbar input:hover .navbar a:active {
+  border-radius: 10px;
+  background: red;
+  color: red;
+}
+.navbar .nav-item a:hover {
+  border-radius: 10px;
+  background: red;
+  margin: auto;
+  padding: auto;
+}
+
+.navbar .btn {
+  border-color: red;
+  color: black;
+}
+.navbar .btn:hover {
+  border-color: black;
+  background: red;
+}
+
+
+
+
+
+/*Menu Principal*/
+
+
+/*Slider*/
+
+@media screen and (max-width: 1000px){
+  .carousel {
+    margin-top: 70px;
+    
+  }
+
+}
+
+
+/*Slider*/
+
+
+/*primer 3 de fotos*/
+.fondo {
+  position: relative;
+  top: -17px;
+  height: 100%;
+  
+  
+}
+.titulo{
+position: relative;
+top: 40px;
+
+}
+
+.servicios-inicio {
+  position: relative;
+ bottom: 10px;
+ 
+}
+
+.texto-todo{
+  position: relative;
+  top: 70px;
+  height: 250px;
+  
+  }
+  .folio1 {
+    border: none;
+    height: 250px;
+  }
+  
+.folio1 .icon-users, .icon-copyright {
+  position: relative;
+  top: 55px;
+  background: #ffb507;
+  color: white;
+ padding: 30px;
+ font-size: 25px;
+ border-radius:100px;
+ 
+ }
+ .folio1 .icon-dollar {
+  position: relative;
+  top: 55px;
+  background: #ffb507;
+  color: white;
+ padding: 30px 35px;
+ font-size: 25px;
+ border-radius:100px;
+ 
+ }
+
+
+.folio1 .icon-users:hover{
+padding: 26px;
+box-shadow: 0px 0px 15px 0px black;
+}
+
+
+.folio1 .icon-dollar:hover{
+  padding: 26px 30px;
+  box-shadow: 0px 0px 15px 0px black;
+  }
+  
+  .folio1 .icon-copyright:hover{
+    padding: 26px;
+    box-shadow: 0px 0px 15px 0px black;
+    }
+  
+
+.folio1 a{
+  text-decoration: none;
+}
+
+
+.titulo-folio1 {
+  position: relative;
+ top: 90px;
+  align-content: center;
+  color: black;
+ 
+}
+
+.titulo-folio1:hover{
+color:#ffb507 ;
+
+}
+
+.folio1-texto {
+position: relative;
+top: 30px;
+}
+
+
+.btn-s {
+position: relative;
+padding: 10px;
+width: 100px;
+border: none;
+background: #ffb507;
+border-radius: 5px;
+}
+
+
+.btn-s a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-s:hover{
+box-shadow: 0px 0px 5px 0px;
+
+}
+
+
+/*Primer 3 de fotos*/
+
+
+
+
+
+
+
+
+
+/*Presentacion*/
+
+.container2 .texto-of{
+  font-size: 4vh;
+}
+
+.container2{
+  position: relative;
+margin-top: 120px;
+}
+.alon{
+  background: rgb(194, 190, 190,0.1);
+  position: relative;
+
+}
+.po {
+  top: 40px;
+}
+
+.presentacion{
+position: relative;
+height: 100%;
+
+}
+
+.po .icon-html51 {
+  position: relative;
+font-size: 35px;
+float: left;
+right: 15px;
+}
+
+
+.icon-laptop1{
+  position: relative;
+  font-size: 35px;
+  float: left;
+  right: 15px;
+ 
+}
+
+.icon-search{
+  position: relative;
+  font-size: 35px;
+  float: left;
+  right: 15px;
+}
+
+.pb-12{
+  position: relative;
+float: left;
+left: 8px;
+
+}
+
+
+.pb-1 {
+position: relative;
+left: 12px;
+float: left;
+text-align: left;
+
+}
+
+.u  {
+  position: relative;
+  left: 30px;
+float: left;
+
+}
+
+.u1{
+  overflow: hidden;
+float: right;
+  position: relative;
+ left: 30px;
+}
+/*Presentacion*/
+
+
+
+
+
+
+/*Portafolio*/
+
+.fondo2 {
+  position: relative;
+background-image: url(../img/soluciones-de-diseño.jpg);
+background-attachment: fixed;
+background-size:100%;
+top: -65px;
+
+}
+
+
+
+.fondo2-e {
+  font-size: 4vh;
+  color: white;
+  position: relative;
+  top:25px;
+}
+
+.fondo2-r {
+color: white;
+
+}
+.view img {
+box-shadow: 0px 0px 15px 0px black ;
+
+}
+.boton {
+  position: relative;
+  bottom: 10px;
+  padding: 20px;
+  background: transparent;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+  }
+  
+  .boton a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .boton:hover{
+    background: #ffb100;
+  
+  }
+  
+
+  /*Presentacion*/
+  .card{
+    position: relative;
+   border: none;
+    background: transparent;
+  }
+  .cardo {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background:
+     -webkit-repeating-linear-gradient(#ffb260,
+     white,white,white,white,white,
+     white,white,white,#ffb257);
+     position: relative;
+     top: -70px;
+     border-radius: 0;
+  }
+  
+  .popeye {
+    position: relative;
+    top: 30px;
+  }
+  .cardo-cont{
+   
+  position: relative;
+    margin-top: 80px;
+
+  }
+  .cardo-cont .card-titulo{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: -50px;
+  }
+  
+  
+  .cardo-car  {
+    position: relative;
+   
+    
+  }
+  
+  .icon-smile-o,.icon-check-square,.icon-hand-paper-o,.icon-money {
+    float: left;
+    position: relative;
+    right: 13px;
+    font-size: 30px;
+  }
+  
+  .card-title {
+    position: relative;
+    left: 10px;
+  }
+  
+  .card-text {
+  position: relative;
+  left: 40px;
+  }  
+  
+  
+  
+  /*Presentacion*/
+
+
+  
+/*boton*/
+
+.Btn-bottom {
+
+top: -90px;
+margin-bottom: 60px;
+}
+.Btn-bottom .btn {
+  border: 1px solid #ffb100;
+  color: black;
+}
+
+.Btn-bottom .btn a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Btn-bottom .btn:hover {
+  transition: 0.3s ;
+  background: #ffb100;
+  color: white;
+}
+.Btn-bottom .btn:hover a {
+  color: white;
+}
+
+/*boton*/
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+position: relative;
+width: 100%;
+
+}
+.footer1{
+  position: relative;
+
+}
+
+.footer2{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.footer3{
+  position: relative;
+  margin-top: 50px;
+}
+
+.footer2-cont {
+  position: relative;
+  margin-top: 50px;
+}
+
+.card-img{
+position: relative;
+
+}
+
+.footer3-cont {
+  position: relative;
+  margin-top: 40px;
+}
+
+.footer-copyright {
+  background: black;
+  color: white;
+}
+
+.footer2-cont a {
+  text-decoration: none;
+  color: rgb(212, 199, 199);
+}
+.footer1-cont  p {
+  text-decoration: none;
+  color: rgb(212, 199, 199);
+}
+.footer3-cont a {
+  text-decoration: none;
+  color: rgb(212, 199, 199);
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .icon-tags , .icon-phone , .icon-mail, .icon-location {
+
+  color: #ffb100;
+}
+
+.footer .icon-facebook-f{
+  position: relative;
+  background: #3b5998;
+  color: white;
+  font-size: 30px;
+  padding: 15px 21px ;
+  right: 40px;
+  border-radius: 100%;
+
+}
+
+.footer  .icon-instagram2 {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(#405DE6,
+  #5851DB,#833AB4,
+  #C13584,#E1306C,#FD1D1D, #F56040,#F77737,#FCAF45,#FFDC80);
+  padding: 15px 18px;
+  right: 40px;
+  border-radius: 100%;
+  
+}
+
+.footer .icon-whatsapp2 {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  background: #00bb2d;
+  padding: 15px 18px ;
+  right: 40px;
+  border-radius: 100%;
+
+}
+
+@media screen and (max-width: 1000px){
+  .footer .icon-facebook-f{
+    position: relative;
+    background: #3b5998;
+    color: white;
+    font-size: 30px;
+    padding: 15px 21px ;
+    right: 5px;
+    border-radius: 100%;
+  
+  }
+  
+  .footer  .icon-instagram2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#405DE6,
+    #5851DB,#833AB4,
+    #C13584,#E1306C,#FD1D1D, #F56040,#F77737,#FCAF45,#FFDC80);
+    padding: 15px 18px;
+    right: 5px;
+    border-radius: 100%;
+    
+  }
+  
+  .footer .icon-whatsapp2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: #00bb2d;
+    padding: 15px 18px ;
+    right: 7px;
+    border-radius: 100%;
+  
+  }
+
+}
+

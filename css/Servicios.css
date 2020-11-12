@@ -1,0 +1,684 @@
+/*Logo*/
+.navbar img {
+  width: 180px;
+  z-index: 50;
+}
+/*Menu Principal*/
+.navbar {
+  background:paleturquoise;
+}
+
+.navbar-nav {
+  margin-left: 100px;
+  margin: 0px 0px 0px 10px;
+  margin-top: 1px;
+}
+
+.nav-item {
+  color: red;
+}
+.dropdown-menu {
+  background: whitesmoke;
+}
+
+.navbar .form-control .Search:hover {
+  border-color: red;
+}
+
+.navbar input:hover .navbar a:active {
+  border-radius: 10px;
+  background: red;
+  color: red;
+}
+.navbar .nav-item a:hover {
+  border-radius: 10px;
+  background: red;
+  margin: auto;
+  padding: auto;
+}
+
+.navbar .btn {
+  border-color: red;
+  color: black;
+}
+.navbar .btn:hover {
+  border-color: black;
+  background: red;
+}
+
+
+/*Jumbo Tron*/
+.pon{
+
+  background-image: url(../img/Servicios.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 600px;
+}
+
+@media screen and (max-width: 700px){
+.pon {
+  position: relative;
+  background-image: url(../img/argu-100.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 600px;
+
+}
+
+}
+
+@media screen and (max-width:1000px){
+  .pon {
+    position: relative;
+    background-image: url(../img/argu-100.jpg);
+    background-attachment: fixed;
+    background-size: 132%;
+  
+  }
+      
+}
+
+
+
+.pon h5 {
+position: relative;
+top: 150px;
+left: 40px;
+}
+
+.jumbotron {
+background:rgba(0,0,0,0.3);
+position: relative;
+height: 600px;
+} 
+
+
+/*Jumbo Tron*/
+
+
+/*Iconos*/
+
+
+.Iconos {
+  position: relative;
+  margin-top: 40px;
+
+}
+
+.Iconos  .icon-display{
+  position: relative;
+  background: rgb(255, 115, 0);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+.Iconos 
+
+.icon-pencil1{
+  position: relative;
+  background: #17a2b8;
+  border-radius: 150px;
+  padding: 15px ;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+ 
+ 
+}
+
+
+.Iconos .pb-12 {
+  margin-top: 20px;
+  position: relative;
+  font-size: 18px;
+}
+
+
+
+.Iconos  .icon-camera1{
+  position: relative;
+background: purple;
+  border-radius: 150px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+.Iconos .icon-bar-chart {
+  position: relative;
+  background:yellowgreen ;
+  border-radius: 150px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+
+
+.icon-mobile{
+  position: relative;
+  background: rgb(5, 152, 236);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+.icon-copyright{
+  position: relative;
+  background: rgb(53, 49, 49);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+.icon-medal{
+  position: relative;
+  background: rgb(206, 22, 120);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+.icon-file-text1{
+  position: relative;
+  background: green;
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+.icon-group{
+  position: relative;
+  background: rgb(51, 221, 51);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+
+
+.Iconos  .icon-video-camera1{
+  position: relative;
+  background: rgb(6, 202, 236);
+  border-radius: 100px;
+  padding: 15px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+.Iconos  .icon-microphone{
+  position: relative;
+  background: rgba(219, 219, 10, 0.788);
+  border-radius: 150px;
+  padding: 15px 22px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 40px;
+}
+
+
+.Iconos .icon-dollar{
+  position: relative;
+  background: rgba(20, 158, 182, 0.815);
+  border-radius: 150px;
+  padding: 15px 22px;
+ float: left;
+ right: 20px;
+ color: white;
+ font-size: 35px;
+}
+
+
+
+
+.Iconos .toto {
+  float: right;
+}
+
+.Iconos .u2 {
+  overflow: hidden;
+  float: right;
+    position: relative;
+   left: 45px;
+}
+
+.u4{
+  position: relative;
+  right: 30px;
+}
+
+/*Iconos*/
+
+
+
+
+
+/*Presentacion*/
+.pan main{
+  position: relative;
+  
+ 
+}
+
+.pan .maska{
+background: rgba(0, 0, 0,0.9);
+
+}
+
+.container2 .texto-of{
+  font-size: 4vh;
+}
+
+.container2{
+  position: relative;
+margin-top: 120px;
+}
+.alon{
+  background: rgba(126, 79, 79, 0.2);
+  position: relative;
+
+}
+.po {
+  top: 40px;
+}
+
+.presentacion{
+position: relative;
+height: 100%;
+
+}
+
+.po .icon-html51 {
+  position: relative;
+font-size: 35px;
+float: left;
+right: 15px;
+}
+
+
+.icon-laptop1,.icon-pencil1,.icon-display{
+  position: relative;
+  font-size: 35px;
+  float: left;
+  right: 15px;
+ 
+}
+
+.icon-search{
+  position: relative;
+  font-size: 35px;
+  float: left;
+  right: 15px;
+}
+
+.pb-12{
+  position: relative;
+float: left;
+left: 8px;
+
+}
+
+
+.pb-1 {
+position: relative;
+left: 12px;
+float: left;
+text-align: left;
+
+}
+
+.u  {
+  position: relative;
+  left: 30px;
+float: left;
+
+}
+
+.u1{
+  overflow: hidden;
+float: right;
+  position: relative;
+ left: 30px;
+}
+/*Presentacion*/
+
+
+
+
+/*slider*/
+
+.slide {
+  
+  position: relative;
+  background: linear-gradient(white,rgb(194, 190, 190,0.5),
+  rgb(194, 190, 190,0.5),rgb(194, 190, 190,0.5),white);
+  margin-top: 60px;
+}
+
+
+.icon-chevron-left{
+  
+  padding: 16px;
+  background: #ffb507;
+  color: white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.icon-chevron-right {
+  position: relative;
+  left: 5px;
+  padding: 16px;
+  background: #ffb507;
+  color: white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.carousel-indicators li {
+background-color: #ffb507;
+ 
+}
+
+.carousel-inner{
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.card{
+ 
+  position: relative;
+ border: none;
+  background: transparent;
+}
+.cardo {
+  
+  width: 100%;
+  height: 100%;
+  border: none;
+  background:
+   -webkit-repeating-linear-gradient(#ffb260,
+   white,white,white,white,white,
+   white,white,white,#ffb257);
+   position: relative;
+   top: -70px;
+   border-radius: 0;
+}
+.imagen {
+  margin-top: 100px;
+}
+.popeye {
+  position: relative;
+  top: 30px;
+}
+.cardo-cont{
+ 
+position: relative;
+  margin-top: 80px;
+
+}
+.cardo-cont .card-titulo{
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  top: -50px;
+}
+
+
+.cardo-car  {
+  position: relative;
+ 
+  
+}
+
+.icon-smile-o,.icon-check-square,.icon-hand-paper-o,.icon-money {
+  float: left;
+  position: relative;
+  right: 13px;
+  font-size: 30px;
+}
+
+.card-title {
+  position: relative;
+  text-align: center;
+}
+
+.card-text {
+position: relative;
+left: 35px;
+margin: 0;
+padding: 0;
+}  
+
+.card-titulo{
+  margin-top: 20px;
+}
+.card-body .Pre{
+position: relative;
+text-align: center;
+margin-top: -20px;
+font-size: 20px;
+
+  
+}
+
+.card-body .linea{
+  position: relative;
+  top: -10px;
+
+}
+
+/*slider*/
+
+
+
+
+
+
+
+/*Jumbo Tron*/
+.pon2{
+
+  background-image: url(../img/Servicios.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 600px;
+}
+
+.pon2 h5 {
+position: relative;
+top: 150px;
+
+}
+
+.jumbotron2 {
+background:rgba(0,0,0,0.6);
+position: relative;
+height: 600px;
+} 
+
+
+.pon2 h5  a {
+  color: white;
+text-decoration: none;
+
+}
+
+
+.pon2 .p {
+  font-size: 4vh;
+  position: relative;
+  color: white;
+top: 120px;
+}
+
+.pon2 h5{
+  font-size:2vh;
+  font-size: 4vh;
+}
+
+
+.pon2 h5 a:hover{
+  color: #ffb507;
+  text-decoration: none;
+}
+
+.pon2 .p  {
+  position: relative;
+  background: #ffa807;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 25px;
+  width: 100px;
+  box-shadow: 0px 0px 10px 0px black;
+
+}
+.pon2 a {
+  text-decoration: none;
+}
+
+/*Jumbo Tron*/
+
+
+
+
+/*footer*/
+
+.footer {
+  position: relative;
+  width: 100%;
+  
+  }
+  .footer1{
+    position: relative;
+  
+  }
+  
+  .footer2{
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  
+  .footer3{
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .footer2-cont {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .card-img{
+  position: relative;
+  
+  }
+  
+  .footer3-cont {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .footer-copyright {
+    background: black;
+    color: white;
+  }
+  
+  .footer2-cont a {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  .footer1-cont  p {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  .footer3-cont a {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  
+  .footer-copyright a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer .icon-tags , .icon-phone , .icon-mail, .icon-location {
+  
+    color: #ffb100;
+  }
+  
+  .footer .icon-facebook-f{
+    position: relative;
+    background: #3b5998;
+    color: white;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+  
+  }
+  
+  .footer  .icon-instagram2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#405DE6,
+    #5851DB,#833AB4,
+    #C13584,#E1306C,#FD1D1D, #F56040,#F77737,#FCAF45,#FFDC80);
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+    
+  }
+  
+  .footer .icon-whatsapp2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: #00bb2d;
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+  
+  }
+  
+  

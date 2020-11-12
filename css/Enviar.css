@@ -1,0 +1,179 @@
+
+    /*Logo*/
+
+    .navbar img{
+        width: 70px;
+        
+        }
+        .navbar-nav {
+          margin: 0px 0px 0px 10px;
+          margin-top: 10px;
+          
+        }
+        .dropdown-menu{
+        background: whitesmoke;
+        
+        }
+        
+        .navbar .form-control .Search:hover {
+          border-color: red;
+    
+        }
+    
+        .navbar input:hover 
+    
+        .navbar li a:hover{
+          border-radius: 10px;
+          background: rgb(235, 32, 32);
+          color: red;
+        }
+        .navbar .nav-item a:hover{
+          border-radius: 10px;
+          background:red;
+          margin: auto;
+          padding: auto;
+        }
+        
+        .navbar .btn {
+          border-color:  red;
+          color: black;
+    
+        }
+        .navbar .btn:hover   {
+          border-color: black;
+          background:red;
+          
+        }
+    
+         /*Jumbotron*/
+       
+          .card-image  {
+           background-image: url(../img/pagina.jpeg);
+           position: static;
+          list-style-image: initial;
+          background-repeat: round;
+          width: 100%;
+          
+        }
+        
+    
+        .py-5 h5{
+          color: black;
+          height: 120px;
+         }
+        
+         .py-5 h6{
+           font-size: 20px;
+           left: 10px;
+           position: relative;
+           top: 10px;
+          right: 50px;
+          color: black;
+         }
+  
+   
+
+         
+
+/*footer*/
+
+.footer {
+  position: relative;
+  width: 100%;
+  
+  }
+  .footer1{
+    position: relative;
+  
+  }
+  
+  .footer2{
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  
+  .footer3{
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .footer2-cont {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .card-img{
+  position: relative;
+  
+  }
+  
+  .footer3-cont {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .footer-copyright {
+    background: black;
+    color: white;
+  }
+  
+  .footer2-cont a {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  .footer1-cont  p {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  .footer3-cont a {
+    text-decoration: none;
+    color: rgb(212, 199, 199);
+  }
+  
+  .footer-copyright a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer .icon-tags , .icon-phone , .icon-mail, .icon-location {
+  
+    color: #ffb100;
+  }
+  
+  .footer .icon-facebook-f{
+    position: relative;
+    background: #3b5998;
+    color: white;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+  
+  }
+  
+  .footer  .icon-instagram2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#405DE6,
+    #5851DB,#833AB4,
+    #C13584,#E1306C,#FD1D1D, #F56040,#F77737,#FCAF45,#FFDC80);
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+    
+  }
+  
+  .footer .icon-whatsapp2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    background: #00bb2d;
+    padding: 15px 15px 15px 15px;
+    right: 20px;
+    border-radius: 150px;
+  
+  }
+  
+  
