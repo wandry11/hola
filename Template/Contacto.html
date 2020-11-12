@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/Contacto.css" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../estilo.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="/img/iconoReal.ico">
+  <title>Web Wibe Services</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light badge-light  fixed-top" id="menu">
+     <span><a href="../index.html"><img src="../img/ultimo.png" alt="" /></a></span> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">INICIO<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Servicios.html">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Portafolio.html">PORTAFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Nosotros.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+ 
+  <!-- Jumbotron -->
+<div class="pon">
+  <div class="jumbotron card-image">
+ 
+   <div class=" text-white text-center rgba-stylish-strong py-5 px-4">
+     <div class="py-5">
+ 
+       <!-- Content -->
+       <h5 class="h1 orange-text"><i class="icon-group"></i>Contactanos</h5>
+      
+ 
+     </div>
+   </div>
+   </div>
+ </div>
+ <!-- Jumbotron -->
+ 
+
+ <!-- Section: Contact v.1/Formulario -->
+ <section class="my-5 ">
+
+
+  <!-- Grid row -->
+  <div class="row ">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 mb-lg-0 mb-4">  
+
+      <!-- Form with header -->
+      <div class="card">
+        <form action="/php/Enviar.php" method="POST" class="card-body">
+          <!-- Header -->
+          <div class="form-header blue accent-1">
+            <h3 class="mt-2"><i class="fas icon-envelope"></i> Escribenos:</h3>
+          </div>
+          <p class="dark-grey-text">¡Escribenos en Cualquier Momento!</p>
+          <!-- Body -->
+          <div class="md-form">
+            <i class="fas icon-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control " placeholder="Ingrese Su Nombre" name="Nombre" required>
+            <label for="form-name"></label>
+          </div>
+          <div class="md-form">
+            <i class="fas icon-mail prefix grey-text"></i>
+            <input type="text" id="form-email" class="form-control" placeholder="Ingrese su Email" name="Email" required>
+            <label for="form-email"></label>
+          </div>
+          <div class="md-form">
+            <i class="fas icon-phone prefix grey-text"> </i>
+            <input type="text" id="Telefono" class="form-control" placeholder="Ingrese su Numero de Telefono" name="Telefono" required>
+            <label for="form-Subject "></label>
+          </div>
+          <div class="md-form">
+            <i class="fas icon-pencil  prefix"></i>
+            <textarea id="form10" type="text" class="md-textarea form-control" id="Mensaje" name="Mensaje" rows="3"
+              placeholder="Escriba su Mensaje" required></textarea>
+            <label for="form10"></label>
+          </div>
+          <div class="text-center">
+            <button type="submit" id="Enviar" name="Enviar" class="btn ">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Form with header -->
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-section" class="z-depth-1-half map-container-section mb-4 " style="height: 400px">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.2907115444236!2d-68.98514278614843!3d18.425105132325307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf552049a36707%3A0xd33db26b74f30013!2sM-23%2033%2C%20La%20Romana%2022000!5e0!3m2!1ses!2sdo!4v1576951786076!5m2!1ses!2sdo"
+          frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <!-- Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1">
+            <i class="fas icon-location"></i>
+          </a>
+          <p>Bavaro, La Altagracia</p>
+          <p class="mb-md-0">Republica Dominicana</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1">
+            <i class="fa icon-phone"></i>
+          </a>
+          <p>829-522-9600</p>
+          <p class="mb-md-0"> Lun - Dom, 8:00 p.m-6:00 p.m</p>
+        </div>
+        <div class="col-md-4">
+          <a href=" mailto: Yirethrentcar@gmail.com " target="_blank" class="btn-floating blue accent-1">
+            <i class="fas icon-mail"></i>
+          </a>
+          <p>Work Website Services</p>
+          <p class="mb-0 ">info@wws.com.do</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Contact v.1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-5 bg-dark ">
+
+  <!-- Footer Links -->
+  <div class=" footer container-fluid text-center bg-dark text-md-left  ">
+
+    <!-- Grid row -->
+    <div class="asd row bg-dark">
+
+      <!-- Grid column -->
+      <div class=" footer1 col-md-6 mt-md-3 mt-0 ">
+
+        <!-- Content -->
+        <div class=" footer1-cont col-md-6  container-fluid ">
+          <span><a href="../index.html"><img src="../img/007.png " alt="" class="card-img" /></a></span> 
+          <p>Somos una agencia joven e innovadora, capaces de distinguir las necesidades de los clientes y establecer las mejores estrategias para impulsar sus proyectos.</p>
+            <p> Nos encanta lo que hacemos por ello damos lo mejor en cada trabajo.</p>
+        </div>
+       
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class=" footer2 col-md-3 mb-md-0 mb-3  ">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Contactos</h5>
+
+        <ul class=" footer2-cont list-unstyled">
+          <li>
+            <i class="icon-phone"></i>
+            <a href="#!">829-522-9600</a>
+          </li>
+          <li>
+            <i class="icon-mail"></i>
+            <a href="#!">wandryoscar@gmail.com</a>
+          </li>
+          <li>
+            <i class="icon-location"></i>
+            <a href="#!">Av. Manuela Dies Jiminez, <br> Ginanadiana c/ #15 c/#7</a>
+          </li>
+         
+        </ul>
+         <a class="btn-floating btn-lg btn-fb" href="https://www.google.com.do"  ><i class="fab icon-facebook-f"></i></a>
+        <a class="btn-floating btn-lg btn-fb" href="https://www.google.com.do" ><i class="fab icon-instagram2"></i></a>
+        <a class="btn-floating btn-lg btn-fb" href="https://www.google.com.do"><i class="fab icon-whatsapp2"></i></a>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="footer3 col-md-3 mb-md-0 mb-3 ">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Noticias Recientes</h5>
+
+        <ul class=" footer3-cont list-unstyled">
+          <li>
+            <i class="icon-tags"></i>
+            <a href="#!">Cómo hacer que tu empresa sobreviva ante el coronavirus</a>
+          </li>
+          <li>
+            <i class="icon-tags"></i>
+            <a href="#!">Marketing para Colegios</a>
+          </li>
+          <li>
+            <i class="icon-tags"></i>
+            <a href="#!">¿Por qué vale la pena ser programador?</a>
+          </li>
+          <li>
+            <i class="icon-tags"></i>
+            <a href="#!">El arte digital y sus infinitas posibilidades</a>
+          </li>
+          <li>
+            <i class="icon-tags"></i>
+            <a href="#!">Phishing: ¿qué es y cómo evitarlo?</a>
+         
+          </li>
+         
+        </ul>
+        
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center  py-3">© 2020 Copyright:
+    <a href="#"> Todos los derechos reservados</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+  <script src="../js/cambiocolor.js"></script>
+
+
+
+</body>
+
+</html>
